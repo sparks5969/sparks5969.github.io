@@ -1,0 +1,284 @@
+.container{
+    width: 780px;
+    background: #F0F0F0;
+    margin: auto;
+    position:relative;
+    top:10px;
+    margin-bottom:20px;
+    overflow:auto;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+body{
+    background-color:#D5DFF6 ;
+    overflow:scroll;
+    color: #00004C
+}
+
+#publication{
+    font-family:Verdana, Geneva, sans-serif;
+    color:#013364;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.top{
+    width: 600px;
+    height:90px;
+    float:right;
+    background-color: #2E5ED1;
+}
+
+.sidebar{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:small;
+    font-weight:bold;
+    width: 180px;
+    float:left;
+    margin-top:50px;
+    height:300px;
+    padding-left:0px;
+    background-color: #F0F0F0;   
+}
+
+.content{
+    width:560px;
+    float:right;
+    margin-right:10px;
+    margin-top:50px;
+    
+}
+
+.content p {
+    padding-left:10px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    line-height:150%;
+}
+
+.content h1,h2,h3,h4,h5,h6 {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+}
+
+.reference{
+    padding-left:10px;
+    padding-top:10px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    line-height:150%;
+}
+
+
+ul.enumerate{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    line-height:150%;
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    list-style-image: url('../img/point.png');
+}
+
+ul.teaching{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    line-height:150%;
+
+    padding-left:5px;
+    list-style-image: url('../img/point.png');
+}
+
+
+ul.papers{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    line-height:150%;
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#006729;
+    list-style-image: url('../img/point.png');
+}
+.title{
+    border-bottom-style:double;
+    border-bottom-color:#2E5ED1;
+    border-width:thin;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#333333;
+}
+.subtitle{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#333333;
+}
+
+h3{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:12px;
+    padding-top:0px;
+}
+
+h4{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:11px;
+}
+
+
+
+
+
+ul.nav a, ul.nav a:visited {
+    display:block;
+    width:160px;
+    height:20px;
+    color: #FFFFFF;
+    text-decoration:none;
+    background-color:#2E5ED1;
+	font-size: 11px;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+    color: #FFF;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	background-color: #F90;
+	font-size:11px;
+}
+
+
+ul.nav li{
+    margin-bottom:5px;
+    text-align:left;
+}
+
+ #vita{
+    margin-top:30px;
+}
+
+
+ul.nav li a{
+    padding-top:8px;
+    padding-left:20px;
+}
+
+ul .resume li a{
+    padding-left:50px;
+} 
+
+
+
+footer{
+    width:750px;
+    background-color:#2E5ED1;
+    float:left;
+    height:20px;
+    margin-left:15px;
+    margin-top:20px;
+    margin-bottom:10px; 
+    color:#E3E3E3;
+    text-align: right;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:small;
+}
+
+footer a {
+    padding-right:10px;
+    vertical-align:middle;
+}
+
+
+.icon{
+    width:80px;
+    height:80px;
+    float:right;
+    padding-top:5px;
+    padding-right:20px;
+}
+
+.icon_text{
+    padding-top:30px;
+    padding-left: 40px;
+}
+
+
+.gallery{
+	width: 528px;
+	margin: auto;
+	text-align:center;
+}
+
+.gallery ul{
+	list-style:none;
+}
+
+.gallery li{
+	float:left;
+	margin: 10px;
+}
+
+.gallery img{
+	display:block;
+	padding:4px;
+	background:#CACFD2  ;
+	border:1px solid #FFF;
+	box-shadow: 1px 1px 2px #000;
+}
+
+.gallery img:hover{
+	border:1px solid #F90;
+}
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
