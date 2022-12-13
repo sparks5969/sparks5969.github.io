@@ -1,0 +1,181 @@
+<div id="kl_wrapper_3" class="kl_generic kl_wrapper">
+    <div id="kl_banner">
+        <p><span id="kl_banner_left">&nbsp;</span><strong>This is the second part of the exam. This part counts for 70% of the final exam grade. </strong><strong></strong><span style="text-decoration: underline; color: #169179;"><span style="font-size: 14pt;"><strong>Please read this instruction carefully!</strong></span></span></p>
+        <p>==========================================================================================================</p>
+    </div>
+</div>
+<h4><span style="text-decoration: underline;"><strong><span style="color: #169179; font-size: 18pt; text-decoration: underline;">Machine Learning World Cup: </span></strong></span></h4>
+<h4><span style="text-decoration: underline;"><strong><span style="color: #169179; font-size: 18pt; text-decoration: underline;">Scientific evaluation of the market value of football players</span></strong></span></h4>
+<p><span style="text-decoration: underline;"><strong><span style="color: #169179; font-size: 18pt; text-decoration: underline;"><span style="text-decoration: underline; color: #169179;"><span style="font-size: 14pt;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://canvas.case.edu/courses/32809/files/5735858/preview" alt="Soccer.jpg" width="640" height="380" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5735858" data-api-returntype="File" /></span></span></span></strong></span></p>
+<p>==========================================================================================================</p>
+<h3><span style="font-size: 14pt;"><strong>1. Project Description&nbsp;</strong></span></h3>
+<p><span>Every year, professional football clubs spend billions of dollars for the transfer of players. </span>In recent years the transfer fees paid by football clubs for their players have sky-rocketed. For instance, i<span>n 2017, Paris St-Germain signed Barcelona forward Neymar for a world record US$233 million. </span></p>
+<p><span>Accurately assessing and predicting football player's market value can foster various applications for the football industry, such as transfer negotiations, club management, new football tactics, etc.</span></p>
+<p><span style="color: #169179;"><strong>In this project, you will attempt to answer one of most intriguing questions in the football world: How the market value of a player is determined?</strong></span></p>
+<p>The datasets you need is attached below<span>:</span></p>
+<ul>
+    <li><a class="instructure_file_link instructure_scribd_file inline_disabled" title="train-1.csv" href="https://canvas.case.edu/courses/32809/files/5735742?wrap=1" target="_blank" rel="noopener" data-canvas-previewable="false" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5735742" data-api-returntype="File"><span>train.csv</span></a></li>
+    <li><a class="instructure_file_link instructure_scribd_file inline_disabled" title="test-2.csv" href="https://canvas.case.edu/courses/32809/files/5735744?wrap=1" target="_blank" rel="noopener" data-canvas-previewable="false" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5735744" data-api-returntype="File"><span>test.csv</span></a></li>
+</ul>
+<p><span>The train set should be used to build your machine learning models. In the train set, you are provided with the market value (i.e., the &ldquo;ground truth&rdquo;) for each player. </span><strong>The &ldquo;label&rdquo; is the market value of the players.</strong><span> Your model will be based on </span><strong>&ldquo;features&rdquo;</strong><span> like heights, total goals, nationalities, and so on.</span><span>&nbsp;You can also create new features using your domain knowledge or data skills.&nbsp;</span></p>
+<p><span>The test set should be used to see how well your model performs on unseen data. In the test set, there is no information on the players' market value. </span>It is your job to predict the market value. <strong>For each player in the test set, use the model you trained to predict the player's market value (in USD).</strong></p>
+<p><strong>No limitations or rules on model types.</strong><span> You can use any methods/algorithms to train your model (e.g. linear, non-linear, logistic, tree-based models, etc.).</span></p>
+<p>==========================================================================================================</p>
+<h3><span style="font-size: 14pt;"><strong>2. Submission Files Format</strong></span></h3>
+<p><span style="color: #169179;">You should upload two files use the upload file link on canvas&nbsp;by<strong> &nbsp;Dec 16 (Friday) 11:59 pm</strong>.&nbsp; No extension will be granted.</span></p>
+<p><span>The two files are:&nbsp;</span></p>
+<ul>
+    <li><strong>Your python script</strong></li>
+    <li><strong>The prediction outcome</strong></li>
+</ul>
+<p><span>For the python script, you should submit a python file named<strong> exactly</strong> as </span><strong>&nbsp;"<span style="color: #169179;">final.py"</span></strong></p>
+<p><span>For the prediction outcome:</span></p>
+<ul>
+    <li><span>You should submit a csv file named </span><strong>exactly</strong><span> as</span><strong> "<span style="color: #e03e2d;"><span style="color: #169179;">prediction.csv</span><span style="color: #34495e;">"</span></span><span style="color: #34495e;">&nbsp;</span></strong></li>
+    <li><span>The submitted csv file should have </span><strong>exactly 4134 entries plus a header row</strong><span>.&nbsp;</span></li>
+    <li><span>The file should have </span><strong>exactly 2 columns</strong><span>:</span></li>
+    <ul>
+        <li><strong>player_id</strong><span> (sorted in any order)</span></li>
+        <li><strong>market_value_usd</strong><span>&nbsp;(the predicted price)</span></li>
+    </ul>
+</ul>
+<p><span>I posted an<a class="instructure_file_link instructure_scribd_file inline_disabled" title="example_submission-3.csv" href="https://canvas.case.edu/courses/32809/files/5190423?wrap=1" target="_blank" rel="noopener" data-canvas-previewable="false" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5190423" data-api-returntype="File"> </a></span><a class="instructure_file_link instructure_scribd_file inline_disabled" title="example_submission-4.csv" href="https://canvas.case.edu/courses/32809/files/5735758?wrap=1" target="_blank" rel="noopener" data-canvas-previewable="false" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5735758" data-api-returntype="File"><strong>example_sumbission.csv</strong></a><span> here as an example of what a submission file should look like. </span><span>This example submission predicts that each player's market value is always total_apperance*1000 </span><span>(<span style="color: #e67e23;">By no means this is a good prediction, I believe you can absolutely do better than this example</span>).&nbsp;</span></p>
+<p><span>==========================================================================================================</span></p>
+<h3><span style="font-size: 14pt;"><strong>3. Evaluation</strong></span></h3>
+<p><span style="color: #169179;"><strong>Your goal</strong></span><span><span style="color: #ff7e7e;"> </span>is to predict the market price for each diamond product in the test set. Try your best to maximize the <strong>coefficient of determination ( i.e., &nbsp;R-squared)&nbsp;</strong>of your model.</span> <span>&nbsp;The <img class="equation_image" title="R^2" src="https://canvas.case.edu/equation_images/R%255E2?scale=1" alt="LaTeX: R^2" data-equation-content="R^2" />&nbsp;provides a measure of how well observed outcomes are replicated by the model, based on the proportion of total variation of outcomes explained by the model. Specifically:</span></p>
+<p><span><img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="R^2\:=\:\frac{SSR}{SST}\:=\:\frac{\sum\left(\hat{y_i}\:-\:\bar{y}\right)^2}{\sum\left(y_i\:-\:\bar{y}\right)^2}" src="https://canvas.case.edu/equation_images/R%255E2%255C%253A%253D%255C%253A%255Cfrac%257BSSR%257D%257BSST%257D%255C%253A%253D%255C%253A%255Cfrac%257B%255Csum%255Cleft(%255Chat%257By_i%257D%255C%253A-%255C%253A%255Cbar%257By%257D%255Cright)%255E2%257D%257B%255Csum%255Cleft(y_i%255C%253A-%255C%253A%255Cbar%257By%257D%255Cright)%255E2%257D?scale=1" alt="LaTeX: R^2\:=\:\frac{SSR}{SST}\:=\:\frac{\sum\left(\hat{y_i}\:-\:\bar{y}\right)^2}{\sum\left(y_i\:-\:\bar{y}\right)^2}" width="277" height="61" data-equation-content="R^2\:=\:\frac{SSR}{SST}\:=\:\frac{\sum\left(\hat{y_i}\:-\:\bar{y}\right)^2}{\sum\left(y_i\:-\:\bar{y}\right)^2}" /></span></p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><span style="color: #ffb9b9; text-decoration: underline;"><span style="color: #169179; text-decoration: underline;"><strong>Your grade</strong></span> </span>depends on the following criteria:</span></p>
+<p><img src="https://canvas.case.edu/courses/32809/files/5736056/preview" alt="Screenshot 2022-12-11 at 00.00.47.png" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5736056" data-api-returntype="File" /></p>
+<ul>
+    <li><strong><span style="color: #e03e2d;">All students are required to work on this project independently and submit individual effort work</span></strong></li>
+    <li><strong><span style="color: #e03e2d;">Discussions shall be limited to general modeling ideas</span></strong></li>
+    <li><strong><span style="color: #e03e2d;">Sharing code is NOT ALLOWED.</span></strong></li>
+    <li><strong><span style="color: #e03e2d;">Plagiarism in coding is easy to detect and will not be tolerated. <span style="text-decoration: underline;">Both parties will receive 0.</span></span></strong></li>
+</ul>
+<p><span>==========================================================================================================</span></p>
+<h3><span style="font-size: 14pt;"><strong>4. Variable Dictionary</strong></span></h3>
+<table style="border-collapse: collapse; width: 94.8965%; height: 580px;" border="1">
+    <tbody data-read-aloud-multi-block="true">
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>Variable</strong></td>
+            <td style="width: 38.0721%; height: 29px;"><strong>Explanation</strong></td>
+            <td style="width: 51.9292%; height: 29px;"><strong>Notes</strong></td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>player_id</strong></td>
+            <td style="width: 38.0721%; height: 29px;">each player has a unique id number</td>
+            <td style="width: 51.9292%; height: 29px;">unique value</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><span style="background-color: #fbeeb8;"><strong>market_value_usd&nbsp;</strong></span></td>
+            <td style="width: 38.0721%; height: 29px;"><span style="background-color: #fbeeb8;">the players' market values in US dollars</span></td>
+            <td style="width: 51.9292%; height: 29px;">
+                <p><span style="background-color: #fbeeb8;">this is the target you need to predict. Range from $11070 to 177.1 millions</span></p>
+            </td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>last_season</strong></td>
+            <td style="width: 38.0721%; height: 29px;">the player's last appearance season</td>
+            <td style="width: 51.9292%; height: 29px;">range from 2013 to 2021</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>current_club_id</strong></td>
+            <td style="width: 38.0721%; height: 29px;">id number of the professional football clubs the players belong to.&nbsp;</td>
+            <td style="width: 51.9292%; height: 29px;">381 unique club id in total</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>country_of_birth</strong></td>
+            <td style="width: 38.0721%; height: 29px;">the player's country of birth</td>
+            <td style="width: 51.9292%; height: 29px;">165 different countries in total.</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>contry_of_citizenship</strong></td>
+            <td style="width: 38.0721%; height: 29px;">player's citizenship</td>
+            <td style="width: 51.9292%; height: 29px;">160 different countries in total.</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>date_of_birth</strong></td>
+            <td style="width: 38.0721%; height: 29px;">data of birth</td>
+            <td style="width: 51.9292%; height: 29px;">range from 1978-1-28 to 2006-1-09</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>position</strong></td>
+            <td style="width: 38.0721%; height: 29px;">a player's most frequently played position on the field</td>
+            <td style="width: 51.9292%; height: 29px;">
+                <p>Possible values: Attack, Defender, Midfield, Goalkeeper</p>
+            </td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>sub_position</strong></td>
+            <td style="width: 38.0721%; height: 29px;">more specific positions</td>
+            <td style="width: 51.9292%; height: 29px;">
+                <p>Possible values: Centre-Back, Centre-Forward, Central Midfield, Defensive Midfield, Right-Back, Left-Back, Left Winger, Right Winger, Attacking Midfield, Left Midfield, Right Midfield, Second Striker</p>
+            </td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>foot</strong></td>
+            <td style="width: 38.0721%; height: 29px;">the player's dominant foot</td>
+            <td style="width: 51.9292%; height: 29px;">left, right, or both</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>height_in_cm</strong></td>
+            <td style="width: 38.0721%; height: 29px;">height_in_cm</td>
+            <td style="width: 51.9292%; height: 29px;">n/a</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>agent_name</strong></td>
+            <td style="width: 38.0721%; height: 29px;">the agents who help the players to negotiate contract</td>
+            <td style="width: 51.9292%; height: 29px;">n/a</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>domestic_competition_id</strong></td>
+            <td style="width: 38.0721%; height: 29px;">the id number of the domestic competition the player's club is in</td>
+            <td style="width: 51.9292%; height: 29px;">14 unique competitions in the dataset</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>goals</strong></td>
+            <td style="width: 38.0721%; height: 29px;">total goals from season 2014-15 to season 2021-22</td>
+            <td style="width: 51.9292%; height: 29px;">range from 0 to 344</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>assists</strong></td>
+            <td style="width: 38.0721%; height: 29px;">total assists from season 2014-15 to season 2021-22</td>
+            <td style="width: 51.9292%; height: 29px;">range from 0 to 172</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>minutes_played</strong></td>
+            <td style="width: 38.0721%; height: 29px;">total minutes played on the field from season 2014-15 to season 2021-22</td>
+            <td style="width: 51.9292%; height: 29px;">range from 1 to 33020</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>yellow_cards</strong></td>
+            <td style="width: 38.0721%; height: 29px;">total number of yellow cards received from season 2014-15 to season 2021-22</td>
+            <td style="width: 51.9292%; height: 29px;">range from 0 to 100</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>red_cards</strong></td>
+            <td style="width: 38.0721%; height: 29px;">total number of red cards received from season 2014-15 to season 2021-22</td>
+            <td style="width: 51.9292%; height: 29px;">range from 0 to 5</td>
+        </tr>
+        <tr style="height: 29px;">
+            <td style="width: 9.9144%; height: 29px;"><strong>total_appearance</strong></td>
+            <td style="width: 38.0721%; height: 29px;">total appearance from season 2014-15 to season 2021-22</td>
+            <td style="width: 51.9292%; height: 29px;">range from 1 to 406</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: left;">========================================================================================================</p>
+<h3><span style="font-size: 14pt;"><strong>5. Tips</strong></span></h3>
+<ul style="list-style-type: square;">
+    <li><span>Please allow yourselves </span><span style="color: #e67e23;"><strong><span style="color: #169179;">AT LEAST 8 hours</span> </strong></span><span>working on this project. Do not wait until the last minute.</span></li>
+    <li><span>Be careful of <span style="color: #169179;">missing values.</span> Depending on your modeling strategy, you may drop observations with missing data in the training set. You can also use imputation algorithms to fill-in the missing values before train your model.</span></li>
+    <li><span>Carefully think about what are the best ways to deal with<span style="color: #ff7e7e;"> <span style="color: #169179;">strings</span></span></span><span>. Can you simply drop some of them? For those you need to keep, do you need categorical variable? Dummies? Or numbers?</span></li>
+    <li><span>Do not underestimate the importance of<span style="color: #ff7e7e;"> <span style="color: #169179;">exploratory data analysis</span></span>. Effective EDA can help you know the dataset and make better modeling decisions.</span></li>
+    <li><span style="color: #169179;"><strong>Have fun!</strong></span></li>
+</ul>
+<h3><span style="font-size: 12pt;">==========================================================================================================</span></h3>
+<h3><span style="font-size: 14pt;"><strong>6. Attached Files</strong></span></h3>
+<p><a class="instructure_file_link instructure_scribd_file inline_disabled" title="train-3.csv" href="https://canvas.case.edu/courses/32809/files/5735842?wrap=1" target="_blank" rel="noopener" data-canvas-previewable="false" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5735842" data-api-returntype="File">train.csv</a></p>
+<p><a class="instructure_file_link instructure_scribd_file inline_disabled" title="test-4.csv" href="https://canvas.case.edu/courses/32809/files/5735847?wrap=1" target="_blank" rel="noopener" data-canvas-previewable="false" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5735847" data-api-returntype="File">test.csv</a></p>
+<p><a class="instructure_file_link instructure_scribd_file inline_disabled" title="example_submission-5.csv" href="https://canvas.case.edu/courses/32809/files/5735848?wrap=1" target="_blank" rel="noopener" data-canvas-previewable="false" data-api-endpoint="https://canvas.case.edu/api/v1/courses/32809/files/5735848" data-api-returntype="File">example_submission.csv</a></p>
