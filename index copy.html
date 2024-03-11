@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sining HomePage</title>
+    <link rel ="stylesheet" href="style/reset.css"/>
+    <link rel="stylesheet" href ="style/style1.css"/>
+
+    <script type="text/javascript">
+    function MM_swapImgRestore() { //v3.0
+      var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+      var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+        var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+        if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
+
+    function MM_findObj(n, d) { //v4.01
+      var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+      if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+      for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+      if(!x && d.getElementById) x=d.getElementById(n); return x;
+    }
+
+    function MM_swapImage() { //v3.0
+      var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+       if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+    }
+    </script>
+
+</head>
+<body onload="MM_preloadImages('img/research111.png','img/teaching111.png','img/Vita111.png','img/contact111.png')">
+<div class="container">
+    <div class="content">
+        <a><img src= img/main2.jpg></a>
+    </div>
+    <div class="bottom">
+    	<p>
+        <a href="research.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('img1','','img/research111.png',1)"><img src="img/research.png" alt="Research" class="icon" id="img1" name ="img1"/></a>
+        <a href="teaching.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('img2','','img/teaching111.png',1)"><img src="img/teaching.png" alt="Teaching" class="icon" id="img2" name="img2"/></a>
+        <a href="vita.html"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('img3','','img/vita111.png',1)"><img src="img/vita.png" alt="Vita" class="icon" id="img3" name="img3"/></a>
+        <a href="contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('img4','','img/contact111.png',1)"><img src="img/contact.png" alt="Contact" class="icon" id="img4" name="img4"/></a>
+    	</p>
+
+        <p>
+        <a href="research.html"><img src="img/research_text.png" alt="Research" class="icon_text" id="img5"/></a>
+        <a href="teaching.html"><img src="img/teaching_text.png" alt="Teaching" class="icon_text" id="img6"/></a>
+        <a href="vita.html"><img src="img/vita_text.png" alt="Vita" class="icon_text" id="img7"/></a>
+        <a href="personal.html"><img src="img/contact_text.png" alt="Contact" class="icon_text" id="img8"/></a>
+    	</p>
+
+
+
+    </div>
+</div>
+</body>
+</html>
