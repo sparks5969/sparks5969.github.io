@@ -3,8 +3,7 @@ name: Deploy to AWS Lightsail
 on:
   push:
     branches:
-      - main # Adjust if your primary branch is named differently (NO NEED TO ADJUST FOR NOW)
-
+      - master # Adjust if your primary branch is named differently
 jobs:
   deploy:
     runs-on: ubuntu-latest
