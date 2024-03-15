@@ -1,4 +1,4 @@
-name: Deploy to AWS Lightsail
+name: Deploy to AWS Lightsail update
 
 on:
   push:
