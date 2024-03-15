@@ -29,6 +29,6 @@ jobs:
         mkdir -p ~/.ssh/
         echo "$PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        -o StrictHostKeyChecking=no
+        scp -o StrictHostKeyChecking=no
         scp -r ./path/to/your/code/ $USER_NAME@$HOSTNAME:/path/on/server/
 
